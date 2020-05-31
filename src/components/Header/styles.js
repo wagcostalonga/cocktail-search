@@ -9,22 +9,22 @@ export const Container = styled.header`
   flex-direction: column;
   align-items: center;
 
-  > img {
+  .logo {
     width: 300px;
   }
 
-  > small {
+  small {
     align-self: flex-end;
     position: absolute;
     top: 180px;
   }
 
-  @media (max-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     padding: 40px 40px 20px 40px;
   }
 `;
 
-export const Line = styled.div`
+export const Divisor = styled.div`
   width: 100%;
   border-top: 1px solid #fd746c;
   margin: 20px 0 0 0;

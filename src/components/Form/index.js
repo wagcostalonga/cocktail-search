@@ -10,7 +10,9 @@ const Form = ({ handleSubmit }) => (
         name="drinkName"
         placeholder="What do you want to drink today?"
       />
-      <button type="submit">Search</button>
+      <button className="btnInput" type="submit">
+        Search
+      </button>
     </FormInput>
   </Container>
 );

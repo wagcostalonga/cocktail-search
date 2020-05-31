@@ -2,13 +2,13 @@ import React from 'react';
 
 import logo from '../../assets/logo_cocktail-search.svg';
 
-import { Container, Line } from './styles';
+import { Container, Divisor } from './styles';
 
 function Header() {
   return (
     <Container>
-      <img src={logo} alt="Cocktail Search" />
-      <Line />
+      <img className="logo" src={logo} alt="Cocktail Search" />
+      <Divisor />
       <small>by Wagner Costalonga</small>
     </Container>
   );

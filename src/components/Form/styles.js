@@ -11,7 +11,7 @@ export const FormInput = styled.form`
   width: 350px;
   display: flex;
 
-  > input {
+  input {
     border: 1px solid #fd746c;
     border-radius: 4px 0 0 4px;
     height: 40px;
@@ -20,7 +20,7 @@ export const FormInput = styled.form`
     color: #2c3e50;
   }
 
-  > button {
+  .btnInput {
     background: #fd746c;
     color: #fff;
     height: 40px;
@@ -34,7 +34,7 @@ export const FormInput = styled.form`
     }
   }
 
-  @media (max-width: 575.98px) {
+  @media screen and (max-width: 575.98px) {
     width: 100%;
     padding: 0 40px;
   }

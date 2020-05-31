@@ -7,13 +7,13 @@ export const CardItem = styled.div`
   border-radius: 4px;
   box-shadow: 5px 5px 5px #ddd;
 
-  > img {
+  .drinkImage {
     width: 100%;
     height: auto;
     border-radius: 4px 4px 0 0;
   }
 
-  > div {
+  .drinkRecipe {
     padding: 20px 20px 40px 20px;
     display: flex;
     flex-direction: column;
@@ -30,24 +30,24 @@ export const ListIngredients = styled.ul`
   list-style: none;
   margin: 10px 0 20px 0;
 
-  > li {
+  li {
     display: flex;
     align-items: center;
 
     & + li {
       margin-top: 3px;
     }
-  }
 
-  > li > svg {
-    margin-right: 10px;
+    svg {
+      margin-right: 10px;
+    }
   }
 `;
 
 export const TextInstruction = styled.div`
   margin-top: 10px;
 
-  > p + p {
+  .drinkGlassText {
     margin-top: 10px;
   }
 `;

@@ -4,7 +4,7 @@ import { darken } from 'polished';
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  padding: 40px 0;
+  padding: 50px 0;
 `;
 
 export const FormInput = styled.form`
@@ -32,5 +32,10 @@ export const FormInput = styled.form`
     &:hover {
       background: ${darken(0.05, '#fd746c')};
     }
+  }
+
+  @media (max-width: 575.98px) {
+    width: 100%;
+    padding: 0 40px;
   }
 `;

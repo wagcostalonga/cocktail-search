@@ -1,13 +1,15 @@
 import React from 'react';
-import { FaCocktail } from 'react-icons/fa';
 
-import { Container } from './styles';
+import logo from '../../assets/logo_cocktail-search.svg';
+
+import { Container, Line } from './styles';
 
 function Header() {
   return (
     <Container>
-      <FaCocktail size="25" color="#fd746c" />
-      <h2>Cocktail Search</h2>
+      <img src={logo} alt="Cocktail Search" />
+      <Line />
+      <small>by Wagner Costalonga</small>
     </Container>
   );
 }

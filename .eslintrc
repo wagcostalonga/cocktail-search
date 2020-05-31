@@ -1,6 +1,6 @@
  {
     "env": {
-      "es6": true,
+      "es6": true
     },
     "extends": [
       "plugin:react/recommended",
@@ -10,15 +10,15 @@
     ],
     "globals": {
       "Atomics": "readonly",
-      "SharedArrayBuffer": "readonly",
+      "SharedArrayBuffer": "readonly"
     },
     "parser": "babel-eslint",
     "parserOptions": {
       "ecmaFeatures": {
-        "jsx": true,
+        "jsx": true
       },
       "ecmaVersion": 2018,
-      "sourceType": "module",
+      "sourceType": "module"
     },
     "plugins": [
       "react",
@@ -36,6 +36,7 @@
       "react/state-in-constructor": "off",
       "no-param-reassign": "off",
       "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn"
+      "react-hooks/exhaustive-deps": "warn",
+      "react/prop-types": "off"
     }
   }

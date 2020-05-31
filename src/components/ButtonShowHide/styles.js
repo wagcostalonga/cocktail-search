@@ -13,7 +13,7 @@ export const Container = styled.button`
     margin-top: 20px;
   }
 
-  span {
+  > span {
     color: #fd746c;
   }
 `;

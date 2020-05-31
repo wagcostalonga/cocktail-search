@@ -9,11 +9,11 @@ export const Container = styled.header`
   flex-direction: column;
   align-items: center;
 
-  img {
+  > img {
     width: 300px;
   }
 
-  small {
+  > small {
     align-self: flex-end;
     position: absolute;
     top: 180px;

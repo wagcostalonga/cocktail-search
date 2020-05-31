@@ -7,7 +7,7 @@ export const CardItem = styled.div`
   border-radius: 4px;
   box-shadow: 5px 5px 5px #ddd;
 
-  img {
+  > img {
     width: 100%;
     height: auto;
     border-radius: 4px 4px 0 0;
@@ -31,7 +31,7 @@ export const ListIngredients = styled.ul`
   list-style: none;
   margin: 10px 0 20px 0;
 
-  li {
+  > li {
     display: flex;
     align-items: center;
 
@@ -40,7 +40,7 @@ export const ListIngredients = styled.ul`
     }
   }
 
-  li > svg {
+  > li > svg {
     margin-right: 10px;
   }
 `;
@@ -48,7 +48,7 @@ export const ListIngredients = styled.ul`
 export const TextInstruction = styled.div`
   margin-top: 10px;
 
-  p + p {
+  > p + p {
     margin-top: 10px;
   }
 `;

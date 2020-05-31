@@ -25,7 +25,6 @@ export const Container = styled.header`
 `;
 
 export const Line = styled.div`
-  content: '';
   width: 100%;
   border-top: 1px solid #fd746c;
   margin: 20px 0 0 0;

@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Cards = styled.div`
   max-width: 1200px;
   height: auto;
   padding: 0 20px;
   margin: 0 auto;
 
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
-  grid-gap: 20px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
   justify-content: center;
 `;

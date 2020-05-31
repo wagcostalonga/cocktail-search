@@ -3,7 +3,7 @@ import { FaAngleRight } from 'react-icons/fa';
 
 import { ButtonIngredients, ButtonInstructions } from '../ButtonShowHide';
 
-import { Container, Line, ListIngredients, TextInstruction } from './styles';
+import { CardItem, Line, ListIngredients, TextInstruction } from './styles';
 
 function Card({ drink }) {
   const [showHideInstructions, setShowHideInstructions] = useState(false);
@@ -20,7 +20,7 @@ function Card({ drink }) {
   );
 
   return (
-    <Container>
+    <CardItem>
       <img src={drink.strDrinkThumb} alt={drink.strDrink} />
       <div>
         <h3>{drink.strDrink}</h3>
@@ -153,7 +153,7 @@ function Card({ drink }) {
           </TextInstruction>
         )}
       </div>
-    </Container>
+    </CardItem>
   );
 }
 

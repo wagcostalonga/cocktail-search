@@ -6,7 +6,7 @@ import Card from '../../components/Card';
 
 import api from '../../services/api';
 
-import { Container } from './styles';
+import { Cards } from './styles';
 
 function Main() {
   const [drinks, setDrinks] = useState([]);
@@ -26,11 +26,11 @@ function Main() {
     <>
       <Header />
       <Form handleSubmit={handleSubmit} />
-      <Container>
+      <Cards>
         {drinks.drinks?.map((drink) => {
           return <Card key={drink.idDrink} drink={drink} />;
         })}
-      </Container>
+      </Cards>
     </>
   );
 }

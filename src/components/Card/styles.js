@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const CardItem = styled.div`
   background: #fff;
   width: 300px;
   margin: 0 12px 24px 12px;

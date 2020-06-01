@@ -8,7 +8,7 @@ const Form = ({ handleSubmit }) => (
       <input
         type="text"
         name="drinkName"
-        placeholder="What do you want to drink today?"
+        placeholder="Ex: Mojito, Alexander..."
       />
       <button type="submit">Search</button>
     </FormInput>

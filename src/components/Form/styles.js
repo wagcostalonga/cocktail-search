@@ -10,6 +10,7 @@ export const Container = styled.div`
 export const FormInput = styled.form`
   width: 350px;
   display: flex;
+  justify-content: center;
 
   input {
     border: 1px solid #fd746c;
@@ -24,7 +25,7 @@ export const FormInput = styled.form`
     background: #fd746c;
     color: #fff;
     height: 40px;
-    width: 80px;
+    min-width: 80px;
     border: 1px solid #fd746c;
     border-radius: 0 4px 4px 0;
     transition: background 0.2s;
@@ -37,5 +38,9 @@ export const FormInput = styled.form`
   @media screen and (max-width: 575.98px) {
     width: 100%;
     padding: 0 40px;
+
+    input {
+      font-size: 14px;
+    }
   }
 `;

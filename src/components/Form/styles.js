@@ -33,4 +33,9 @@ export const FormInput = styled.form`
       background: ${darken(0.05, '#fd746c')};
     }
   }
+
+  @media screen and (max-width: 575.98px) {
+    width: 100%;
+    padding: 0 40px;
+  }
 `;

@@ -18,6 +18,10 @@ export const Container = styled.header`
     position: absolute;
     top: 180px;
   }
+
+  @media screen and (max-width: 1200px) {
+    padding: 40px 40px 20px 40px;
+  }
 `;
 
 export const Divisor = styled.div`

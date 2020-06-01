@@ -47,7 +47,7 @@ export const ListIngredients = styled.ul`
 export const TextInstruction = styled.div`
   margin-top: 10px;
 
-  > p {
+  p + p {
     margin-top: 10px;
   }
 `;

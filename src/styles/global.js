@@ -16,7 +16,7 @@ body {
 }
 
 body, input, button {
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #333;

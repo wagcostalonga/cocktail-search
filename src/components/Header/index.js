@@ -7,7 +7,7 @@ import { Container, Divisor } from './styles';
 function Header() {
   return (
     <Container>
-      <img className="logo" src={logo} alt="Cocktail Search" />
+      <img src={logo} alt="Cocktail Search" />
       <Divisor />
       <small>by Wagner Costalonga</small>
     </Container>

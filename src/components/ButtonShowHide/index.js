@@ -6,7 +6,7 @@ import { Container } from './styles';
 export function ButtonIngredients({ showHideIngredients, handleIngredients }) {
   return (
     <Container type="submit" onClick={handleIngredients}>
-      <span className="ingredientsTitle">Ingredients</span>
+      <span>Ingredients</span>
       {showHideIngredients ? (
         <FaAngleUp size={12} color="#fd746c" />
       ) : (
@@ -22,7 +22,7 @@ export function ButtonInstructions({
 }) {
   return (
     <Container type="submit" onClick={handleInstructions}>
-      <span className="instructionsTitle">Instructions</span>
+      <span>Instructions</span>
       {showHideInstructions ? (
         <FaAngleUp size={12} color="#fd746c" />
       ) : (

@@ -9,7 +9,7 @@ export const Container = styled.header`
   flex-direction: column;
   align-items: center;
 
-  .logo {
+  > img {
     width: 300px;
   }
 

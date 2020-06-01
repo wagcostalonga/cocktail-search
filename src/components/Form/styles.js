@@ -20,7 +20,7 @@ export const FormInput = styled.form`
     color: #2c3e50;
   }
 
-  .btnInput {
+  > button {
     background: #fd746c;
     color: #fff;
     height: 40px;

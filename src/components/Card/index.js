@@ -21,13 +21,9 @@ function Card({ drink }) {
 
   return (
     <CardItem>
-      <img
-        className="drinkImage"
-        src={drink.strDrinkThumb}
-        alt={drink.strDrink}
-      />
-      <div className="drinkRecipe">
-        <h3 className="drinkTitle">{drink.strDrink}</h3>
+      <img src={drink.strDrinkThumb} alt={drink.strDrink} />
+      <div>
+        <h3>{drink.strDrink}</h3>
         <Line />
         <ButtonIngredients
           handleIngredients={handleIngredients}
@@ -149,8 +145,8 @@ function Card({ drink }) {
         />
         {showHideInstructions && (
           <TextInstruction>
-            <p className="drinkInstructionsText">{drink.strInstructions}</p>
-            <p className="drinkGlassText">
+            <p>{drink.strInstructions}</p>
+            <p>
               <b>Glass: </b>
               {drink.strGlass}
             </p>

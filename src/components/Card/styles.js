@@ -7,13 +7,13 @@ export const CardItem = styled.div`
   border-radius: 4px;
   box-shadow: 5px 5px 5px #ddd;
 
-  .drinkImage {
+  > img {
     width: 100%;
     height: auto;
     border-radius: 4px 4px 0 0;
   }
 
-  .drinkRecipe {
+  > div {
     padding: 20px 20px 40px 20px;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@ export const ListIngredients = styled.ul`
 export const TextInstruction = styled.div`
   margin-top: 10px;
 
-  .drinkGlassText {
+  > p {
     margin-top: 10px;
   }
 `;

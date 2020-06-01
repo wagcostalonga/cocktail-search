@@ -13,8 +13,7 @@ export const Container = styled.button`
     margin-top: 20px;
   }
 
-  .ingredientsTitle,
-  .instructionsTitle {
+  span {
     color: #fd746c;
   }
 `;

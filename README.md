@@ -3,7 +3,7 @@
 <h3 align="center">Aplicação de receitas de coquetéis e drinks</h3>
 
 <br />
-<p>A aplicação consiste na busca de receitas de coquetéis por nomes ou ingredientes. A partir da submissão do input é possível interagir com os card através dos menus toggle para acessar as informações, como ingredientes e instruções de preparo.</p>
+<p>A aplicação consiste na busca de receitas de coquetéis por nomes ou ingredientes através de uma API REST. A partir da submissão do input é possível interagir com os card através dos menus toggle para acessar as informações, como ingredientes e instruções de preparo.</p>
 
 ### **Tecnologias e Bibliotecas utilizadas**
 

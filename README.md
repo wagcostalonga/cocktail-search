@@ -7,10 +7,6 @@
 
 ### **Tecnologias e Bibliotecas utilizadas**
 
-Backend:
-
-- Json-Server;
-
 Frontend:
 
 - React JS;

@@ -13,7 +13,7 @@ Backend:
 
 Frontend:
 
-- React JS
+- React JS;
 - Hooks;
 - Styled-Components;
 - Axios;
